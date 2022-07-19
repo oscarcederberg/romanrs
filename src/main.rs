@@ -7,7 +7,7 @@ fn print_help() {
     println!("romanrs, version {}", VERSION);
     println!("======================");
     println!("help\t\tsee this message");
-    println!("<uint>\t\tconvert unsigned integer in range [1, {}] to roman numeral", roman_ext::MAX);
+    println!("<uint>\t\tconvert unsigned integer in range [1, {}] to roman numerals", roman_ext::MAX);
 }
 
 fn convert(argument: usize) {
